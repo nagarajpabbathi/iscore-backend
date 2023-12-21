@@ -1,0 +1,99 @@
+[01-Aug-2023 05:19:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:19:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:19:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:19:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:19:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:19:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:19:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:20:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:20:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:20:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:20:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:20:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:20:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:37:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:44:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:44:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:44:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 05:44:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 06:05:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 06:05:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 06:36:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 06:36:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 07:43:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[01-Aug-2023 11:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/iscore.club/public_html/vendor/autoload.php' (include_path='.:/usr/local/php81/pear') in /home/customer/www/iscore.club/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/iscore.club/public_html/index.php on line 34
+[31-Oct-2023 11:53:29 Asia/Kolkata] PHP Fatal error:  Cannot use GuzzleHttp\Psr7\Request as Request because the name is already in use in /home/customer/www/backend.iscore.club/public_html/app/Http/Controllers/API/APIController.php on line 9
+[31-Oct-2023 11:56:42 Asia/Kolkata] PHP Fatal error:  Cannot use GuzzleHttp\Psr7\Request as Request because the name is already in use in /home/customer/www/backend.iscore.club/public_html/app/Http/Controllers/API/APIController.php on line 9
+[02-Nov-2023 15:56:45 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\API\APIController::infoPage() in /home/customer/www/backend.iscore.club/public_html/app/Http/Controllers/API/APIController.php on line 79
