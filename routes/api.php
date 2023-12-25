@@ -53,3 +53,4 @@ Route::post('commenterypage', [APIController::class, 'commenterypage']);
 Route::post('livepage', [APIController::class, 'livepage']);
 Route::post('scorecardpage', [APIController::class, 'scorecardpage']);
 Route::post('pointstable', [APIController::class, 'pointstable']);
+Route::get('test', [APIController::class, 'testing']);

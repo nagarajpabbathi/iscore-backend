@@ -395,4 +395,20 @@ class APIController extends Controller
             return $response;
         }
     }
+    public function testing()
+    {
+        $apiToken = env('ENTITYSPORT_API_KEY');
+        $client = new Client();
+            $apiToken = env('ENTITYSPORT_API_KEY');
+            $guzzleRequest = new GuzzleRequest('GET', 'https://isportindia.com/api/live-score&'.$apiToken);
+            $res = $client->sendAsync($guzzleRequest)->wait();
+            $request =  json_decode($res->getBody(), true);
+            
+
+            dd(  $request);
+            Cache::put("points_table_".$request['competition_id'], $response, 180);
+            return $response;
+      
+        
+    }
 }
