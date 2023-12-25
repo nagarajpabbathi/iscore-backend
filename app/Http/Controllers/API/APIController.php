@@ -398,9 +398,10 @@ class APIController extends Controller
     public function testing()
     {
         $apiToken = env('ENTITYSPORT_API_KEY');
+        $type="live-score";
         $client = new Client();
             $apiToken = env('ENTITYSPORT_API_KEY');
-            $guzzleRequest = new GuzzleRequest('GET', 'https://isportindia.com/api/live-score&'.$apiToken);
+            $guzzleRequest = new GuzzleRequest('GET', 'https://isportindia.com/api/live-score&'.$apiToken.'/'.$type);
             $res = $client->sendAsync($guzzleRequest)->wait();
             $request =  json_decode($res->getBody(), true);
             
