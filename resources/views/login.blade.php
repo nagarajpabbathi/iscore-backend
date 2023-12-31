@@ -22,7 +22,7 @@
       <form action="{{ route('login.submit') }}" method="post">
         @csrf
         <div class="form-group has-feedback">
-          <input type="email" class="form-control" placeholder="Email" name="email" value="admin@gmail.com">
+          <input type="email" class="form-control" placeholder="Email" name="email" value="admin@admin.com">
           <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
           @error('email') <font color="red"> <small>{{ $message }}</small> </font> @enderror
         </div>
@@ -39,7 +39,7 @@
       </form>
     </div>
   </div>
-  <script src="{{ bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="plugins/iCheck/icheck.min.js"></script>
 </body>

@@ -396,20 +396,24 @@ class APIController extends Controller
         }
     }
     public function testing()
-    {
-        $apiToken = env('ENTITYSPORT_API_KEY');
+    { 
         $type="live-score";
-        $client = new Client();
-            $apiToken = env('ENTITYSPORT_API_KEY');
-            $guzzleRequest = new GuzzleRequest('GET', 'https://isportindia.com/api/live-score&'.$apiToken.'/'.$type);
-            $res = $client->sendAsync($guzzleRequest)->wait();
-            $request =  json_decode($res->getBody(), true);
-            
+         
+        if(Cache::has("live")){
+            return Cache::get("live");
+        }
+        else{
 
-            dd(  $request);
-            Cache::put("points_table_".$request['competition_id'], $response, 180);
-            return $response;
-      
-        
+            $request=getResponse($type);
+            
+            $response = json_encode($request,JSON_PRETTY_PRINT);
+            Cache::put("live". $response, 180);
+           
+            dd($request);
+            return $request;
+        }
+
+            
+                           
     }
 }

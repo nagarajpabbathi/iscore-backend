@@ -7,6 +7,9 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Session;
+use GuzzleHttp\Client;
+use GuzzleHttp\Promise;
+use GuzzleHttp\Psr7\Request as GuzzleRequest;
 
 // HOME SLIDER
 // https://rest.entitysport.com/v2/competitions?token=[ACCESS_TOKEN]&per_page=30&&paged=1&status=fixture
@@ -151,12 +154,6 @@ function getCompletedMatch($cId)
 	return $response['response']['items'];
 }
 
-
-
-
-
-
-
 function perPage()
 {
 	return 10;
@@ -247,4 +244,17 @@ function deleteImage($imageUrl)
     }
 
     return false;
+}
+function getResponse($type)
+{
+	$apiToken = env('ENTITYSPORT_API_KEY');
+       
+        $client = new Client();
+            $apiToken = env('ENTITYSPORT_API_KEY');
+            $guzzleRequest = new GuzzleRequest('GET', 'https://isportindia.com/api/'.$apiToken.'/'.$type);
+            $res = $client->sendAsync($guzzleRequest)->wait();
+			$response = json_decode($res->getBody(), true);
+           
+            return $response;
+        
 }
