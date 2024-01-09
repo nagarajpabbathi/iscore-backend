@@ -405,12 +405,32 @@ class APIController extends Controller
         else{
 
             $request=getResponse($type);
-            
-            $response = json_encode($request,JSON_PRETTY_PRINT);
-            Cache::put("live". $response, 180);
            
-            dd($request);
-            return $request;
+            $response = json_encode($request,JSON_PRETTY_PRINT);
+           
+            if (isset($response)) {
+                // Group events by "league_name"
+                $grouped_json = [];
+                foreach ($request['live'] as $event) {
+                    $league_name = $event['competition']['title'];
+                    if (!isset($grouped_json[$league_name])) {
+                        $grouped_json[$league_name] = [
+                            'match_id' => $event['match_id'],
+                            'league_name' => $league_name,
+                            'matches' => [],
+                        ];
+                    }
+                    $grouped_json[$league_name]['matches'][] = $event;
+                }
+
+                $result = array_values($grouped_json);
+                dd($result);
+//                Cache::put("live_screen", $result, 30);
+                return json_encode($result, JSON_PRETTY_PRINT);
+
+            } else {
+                return json_encode("There is no live match", JSON_PRETTY_PRINT);
+            }
         }
 
             
